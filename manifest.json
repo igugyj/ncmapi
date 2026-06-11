@@ -1,0 +1,22 @@
+{
+    "manifest_version": 1,
+    "type": "extension",
+    "name": "NCMAPI",
+    "slug": "ncmapi",
+    "description": "Netease Cloud Music open API service (lx-music compatible)",
+    "preview": "preview.png",
+    "version": "1.0.1",
+    "betterncm_version": ">=0.2.5",
+    "author": "igugyj",
+    "author_link": "https://github.com/igugyj",
+    "fork_of": "taskbar_lyrics",
+    "ncm3-compatible": true,
+    "injects": {
+        "Main": [
+            {
+                "file": "plugin.js"
+            }
+        ]
+    },
+    "native_plugin": "ncmapi.dll"
+}
