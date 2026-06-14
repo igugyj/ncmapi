@@ -31,4 +31,4 @@ This plugin (NCMAPI) is developed **solely for learning, research, and technical
 
 ## License
 
-© igugyj. All Rights Reserved.
+MIT
